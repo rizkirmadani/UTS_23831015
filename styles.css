@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #6f4c3e; /* Warna coklat untuk tema kopi */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Menengahkan gambar secara horizontal */
+    align-items: flex-start; /* Menjaga gambar dan teks sejajar di atas */
+    margin-top: 30px;
+}

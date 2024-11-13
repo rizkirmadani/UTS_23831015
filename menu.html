@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Menu - Kedai Coldbrew XYZ</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .menu-item {
+            margin-bottom: 30px;
+        }
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .menu-item h4 {
+            margin-top: 15px;
+        }
+        .menu-item p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-black text-white text-center p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html">
+                    <img src="logo.jpeg" alt="Logo of Satera Coffee and Roastery, a stylized coffee cup with steam rising" class="mr-3 h-12 w-12" height="50" width="50"/>
+                </a>
+                <h1 class="text-2xl font-bold">Satera Coffee and Roastery</h1>
+            </div>
+            <nav class="flex items-center">
+                <button class="text-white md:hidden" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="hidden md:flex space-x-4" id="nav-menu">
+                    <li><a class="hover:text-gray-400 transition duration-300" href="index.html">Home</a></li>
+                    <li><a class="hover:text-gray-400 transition duration-300" href="abouts.html">About</a></li>
+                    <li><a class="hover:text-gray-400 transition duration-300" href="menu.html">Menu</a></li>
+                    <li><a class="hover:text-gray-400 transition duration-300" href="order.html">Order</a></li>
+                    <li><a class="hover:text-gray-400 transition duration-300" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-10">
+        <h2 class="text-center text-3xl font-bold mb-5">Our Menu</h2>
+        <h3 class="text-2xl font-semibold mb-4">Beverages</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="menu-item">
+                <img alt="A glass of Cold Brew Coffee with ice cubes and a straw" height="200" src="b1.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Americano/Black Coffee</h4>
+                <p class="text-lg">RP 20K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Vanilla Cold Brew with ice cubes and a straw" height="200" src="b2.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Satera Susu Putih</h4>
+                <p class="text-lg">RP 28K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Mocha Cold Brew with ice cubes and a straw" height="200" src="b3.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Satera Mocha Black</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Seasonal Special Cold Brew with ice cubes and a straw" height="200" src="b4.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Americano/Black Coffee Speciality</h4>
+                <p class="text-lg">RP 25K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Caramel Cold Brew with ice cubes and a straw" height="200" src="b5.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Satera Caramel</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Coconut Cold Brew with ice cubes and a straw" height="200" src="b6.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Satera Coconut</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Hazelnut Cold Brew with ice cubes and a straw" height="200" src="b7.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Satera Hazelnut</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Chocolate Mint Cold Brew with ice cubes and a straw" height="200" src="b8.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Satera Chocolate Mint</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A glass of Matcha Cold Brew with ice cubes and a straw" height="200" src="b9.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Satera Matcha</h4>
+                <p class="text-lg">RP 28K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A small cup of Espresso with a rich crema on top" height="200" src="b10.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Espresso</h4>
+                <p class="text-lg">RP 18K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A cup of Latte with a beautiful latte art on top" height="200" src="b11.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Coffee Latte</h4>
+                <p class="text-lg">RP 28K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A cup of Affogato with a scoop of vanilla ice cream and a shot of espresso" height="200" src="b12.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Affogato</h4>
+                <p class="text-lg">RP 35K</p>
+            </div>
+        </div>
+        <h3 class="text-2xl font-semibold mt-10 mb-4">Food</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="menu-item">
+                <img alt="A delicious Sandwich with layers of ham, cheese, lettuce, and tomato" height="200" src="f1.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Sandwich</h4>
+                <p class="text-lg">RP 40K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A Bagel with Cream Cheese, perfectly toasted and spread with creamy cheese" height="200" src="f2.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Bagel with Cream Cheese</h4>
+                <p class="text-lg">RP 35K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A Chocolate Croissant with a flaky, golden-brown crust and a rich chocolate filling" height="200" src="f3.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Chocolate Croissant</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A bowl of fresh Fruit Salad with a variety of colorful fruits" height="200" src="f4.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Fruit Salad</h4>
+                <p class="text-lg">RP 25K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A Cheese Platter with a selection of cheeses, crackers, and fruits" height="200" src="f5.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Cheese Platter</h4>
+                <p class="text-lg">RP 50K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A slice of Quiche with a golden crust and savory filling" height="200" src="f6.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Quiche</h4>
+                <p class="text-lg">RP 45K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A plate of Nachos with Salsa, topped with melted cheese and jalapenos" height="200" src="f7.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Nachos with Salsa</h4>
+                <p class="text-lg">RP 40K</p>
+            </div>
+        </div>
+        <h3 class="text-2xl font-semibold mt-10 mb-4">Snacks</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="menu-item">
+                <img alt="A bowl of crispy Potato Chips" height="200" src="s1.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Potato Chips</h4>
+                <p class="text-lg">RP 15K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A plate of Spring Rolls with a crispy golden-brown exterior" height="200" src="s2.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Spring Rolls</h4>
+                <p class="text-lg">RP 25K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A plate of Cheese Sticks with a crispy coating and melted cheese inside" height="200" src="s3.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Cheese Sticks</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A plate of Mini Tacos with various fillings and toppings" height="200" src="s4.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Mini Tacos</h4>
+                <p class="text-lg">RP 35K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A skewer of fresh fruits including strawberries, grapes, and pineapple" height="200" src="s5.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Fruit Skewers</h4>
+                <p class="text-lg">RP 20K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A bowl of freshly popped Popcorn" height="200" src="s6.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Popcorn</h4>
+                <p class="text-lg">RP 10K</p>
+            </div>
+            <div class="menu-item">
+                <img alt="A plate of Nachos with Cheese Dip, topped with melted cheese and jalapenos" height="200" src="s7.jpg" width="300"/>
+                <h4 class="text-xl font-semibold mt-2">Nachos with Cheese Dip</h4>
+                <p class="text-lg">RP 30K</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+        &copy; 2024 Satera Coffee and Roastery
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const navToggle = document.getElementById("nav-toggle");
+            const navMenu = document.getElementById("nav-menu");
+
+            navToggle.addEventListener("click", () => {
+                navMenu.classList.toggle("hidden");
+            });
+        });
+    </script>
+</body>
+</html>
